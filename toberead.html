@@ -8,8 +8,8 @@
             background-image: url('./images/library.webp');
             background-repeat: no-repeat;
             background-attachment: scroll;
-            background-size: auto;
-            width: max-content;
+            background-size: cover;
+            width: auto;
         }
 
         .col {
@@ -33,13 +33,15 @@
             max-width: 100%;
         }
 
-        .navbar img, .navbar span {
+        .navbar img,
+        .navbar span {
             max-width: 50px;
             margin-right: 20px;
         }
 
         .navbar span {
-            color: white; /* Change text color */
+            color: white;
+            /* Change text color */
             margin-left: auto;
         }
     </style>
@@ -62,15 +64,23 @@
             </li>
         </ul>
         <span class="ml-auto mr-2"></span>
-        <img src="./images/add.png" alt="Another Image" class="rounded-pill">
+        <a href="add.html">
+            <img src="./images/add.png" alt="Another Image" class="rounded-pill"></a>
     </nav>
     <div class="container-fluid p-5 bg-transparent text-white">
-        <p class="h1">Your Library</p>
+        <p class="h1">Will be Reading</p>
     </div>
     <div class="row text-white">
         <div class="col">
             <img src="./images/richdad-poordad.jpg" height="500px">
-            <p class="h3">Rich Dad Poor Dad</p>
+            <p class="h3">Rich Dad Poor Dad</p> <br>
+            <a href="https://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1612680194" class="btn btn-outline-primary btn-lg"  target=”_blank” >Buy Now</a>
+        </div>
+        <div class="col">
+            <img src="./images/book.png" height="500px">
+            <p class="h3">Lorem Ipsum</p><br>
+            <a href="#" class="btn btn-outline-primary btn-lg"  target=”_blank” >Buy Now</a>
+        </div>
         </div>
     </div>
 </body>
