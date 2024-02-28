@@ -9,8 +9,8 @@
             background-image: url('./images/library.webp');
             background-repeat: no-repeat;
             background-attachment: scroll;
-            background-size: auto;
-            width: max-content;
+            background-size: cover;
+            width: auto;
         }
 
         .col {
@@ -43,13 +43,15 @@
             max-width: 100%;
         }
 
-        .navbar img, .navbar span {
+        .navbar img,
+        .navbar span {
             max-width: 50px;
             margin-right: 20px;
         }
 
         .navbar span {
-            color: white; /* Change text color */
+            color: white;
+            /* Change text color */
             margin-left: auto;
         }
     </style>
@@ -72,10 +74,11 @@
             </li>
         </ul>
         <span class="ml-auto mr-2"></span>
-        <img src="./images/add.png" alt="Another Image" class="rounded-pill">
+        <a href="add.html">
+            <img src="./images/add.png" alt="Another Image" class="rounded-pill"></a>
     </nav>
     <div class="container-fluid p-5 bg-transparent text-white">
-        <p class="h1">Your Library</p>
+        <p class="h1">Already Read</p>
     </div>
     <div class="row text-white">
         <div class="col">
@@ -86,9 +89,43 @@
                 </div>
                 <div class="col-md-6 quotes">
                     <p class="h4">Quotes</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore repudiandae repellat provident tenetur dolorem neque distinctio necessitatibus, dolor officiis temporibus, sed eum, incidunt delectus consectetur fugit iure architecto! Optio, iusto.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quibusdam, consequatur optio nesciunt doloribus tempore quaerat repudiandae cumque, porro illum quos repellat dignissimos qui saepe, dolor numquam natus architecto! Quos!</p>
-                    <!-- Add more quotes as needed -->
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore repudiandae repellat provident
+                        tenetur dolorem neque distinctio necessitatibus, dolor officiis temporibus, sed eum, incidunt
+                        delectus consectetur fugit iure architecto! Optio, iusto.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quibusdam, consequatur optio
+                        nesciunt doloribus tempore quaerat repudiandae cumque, porro illum quos repellat dignissimos qui
+                        saepe, dolor numquam natus architecto! Quos!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque id eligendi vitae,
+                        assumenda placeat quas fugiat quidem, repellat qui at perspiciatis neque accusantium obcaecati
+                        iste incidunt asperiores modi alias.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere aut unde officiis iste.
+                        Architecto commodi ratione quaerat assumenda, voluptatem, ea minima cumque, corporis
+                        reprehenderit blanditiis explicabo at placeat laudantium!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row text-white">
+        <div class="col">
+            <div class="row">
+                <div class="col-md-6 book-info">
+                    <img src="./images/book.png" height="500px">
+                    <p class="h3">Lorem Ipsum</p>
+                </div>
+                <div class="col-md-6 quotes">
+                    <p class="h4">Quotes</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore repudiandae repellat provident
+                        tenetur dolorem neque distinctio necessitatibus, dolor officiis temporibus, sed eum, incidunt
+                        delectus consectetur fugit iure architecto! Optio, iusto.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quibusdam, consequatur optio
+                        nesciunt doloribus tempore quaerat repudiandae cumque, porro illum quos repellat dignissimos qui
+                        saepe, dolor numquam natus architecto! Quos!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque id eligendi vitae,
+                        assumenda placeat quas fugiat quidem, repellat qui at perspiciatis neque accusantium obcaecati
+                        iste incidunt asperiores modi alias.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere aut unde officiis iste.
+                        Architecto commodi ratione quaerat assumenda, voluptatem, ea minima cumque, corporis
+                        reprehenderit blanditiis explicabo at placeat laudantium!</p>
                 </div>
             </div>
         </div>
