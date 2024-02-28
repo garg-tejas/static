@@ -8,8 +8,8 @@
             background-image: url('./images/library.webp');
             background-repeat: no-repeat;
             background-attachment: scroll;
-            background-size: auto;
-            width: max-content;
+            background-size: cover;
+            width: auto;
         }
 
         .col {
@@ -32,6 +32,7 @@
         .moments {
             text-align: left;
             margin-top: 20px;
+            color: EEEDEB;
         }
 
         .navbar-brand img {
@@ -42,13 +43,14 @@
             max-width: 100%;
         }
 
-        .navbar img, .navbar span {
+        .navbar img,
+        .navbar span {
             max-width: 50px;
             margin-right: 20px;
         }
 
         .navbar span {
-            color: white; /* Change text color */
+            color: white;
             margin-left: auto;
         }
     </style>
@@ -71,10 +73,11 @@
             </li>
         </ul>
         <span class="ml-auto mr-2"></span>
-        <img src="./images/add.png" alt="Another Image" class="rounded-pill">
+        <a href="add.html">
+            <img src="./images/add.png" alt="Another Image" class="rounded-pill"></a>
     </nav>
     <div class="container-fluid p-5 bg-transparent text-white">
-        <p class="h1">Your Library</p>
+        <p class="h1">Reading Now</p>
     </div>
     <div class="row text-white">
         <div class="col">
@@ -85,15 +88,59 @@
                 </div>
                 <div class="col-md-6 moments">
                     <p class="h4">Favourite Moments</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore repudiandae repellat provident tenetur dolorem neque distinctio necessitatibus, dolor officiis temporibus, sed eum, incidunt delectus consectetur fugit iure architecto! Optio, iusto.</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus explicabo ipsum temporibus iusto voluptas. Ad provident possimus nobis sit minus accusamus, similique officia delectus quis! Ut voluptatibus reiciendis quis sit?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore repudiandae repellat provident
+                        tenetur dolorem neque distinctio necessitatibus, dolor officiis temporibus, sed eum, incidunt
+                        delectus consectetur fugit iure architecto! Optio, iusto.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus explicabo ipsum temporibus
+                        iusto voluptas. Ad provident possimus nobis sit minus accusamus, similique officia delectus
+                        quis! Ut voluptatibus reiciendis quis sit?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, pariatur? Natus aspernatur
+                        numquam modi laborum tempora, alias, quisquam aliquid deserunt molestias a minima, reprehenderit
+                        quo eligendi consequuntur fugiat incidunt quasi!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ducimus corrupti magnam,
+                        libero quisquam necessitatibus quia obcaecati inventore maxime recusandae minima atque dolores
+                        vel. Deleniti nulla itaque nostrum quis quod!</p>
+                    <br>
                     <div class="container">
                         <h2>Progress Bar</h2>
                         <div class="progress">
-                          <div class="progress-bar" role="progressbar" style="width:40%">
-                          </div>
+                            <div class="progress-bar" role="progressbar" style="width:40%">
+                            </div>
                         </div>
-                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row text-white">
+        <div class="col">
+            <div class="row">
+                <div class="col-md-6 book-info">
+                    <img src="./images/book.png" height="500px">
+                    <p class="h3">Lorem Ipsum</p>
+                </div>
+                <div class="col-md-6 moments">
+                    <p class="h4">Favourite Moments</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore repudiandae repellat provident
+                        tenetur dolorem neque distinctio necessitatibus, dolor officiis temporibus, sed eum, incidunt
+                        delectus consectetur fugit iure architecto! Optio, iusto.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus explicabo ipsum temporibus
+                        iusto voluptas. Ad provident possimus nobis sit minus accusamus, similique officia delectus
+                        quis! Ut voluptatibus reiciendis quis sit?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, pariatur? Natus aspernatur
+                        numquam modi laborum tempora, alias, quisquam aliquid deserunt molestias a minima, reprehenderit
+                        quo eligendi consequuntur fugiat incidunt quasi!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ducimus corrupti magnam,
+                        libero quisquam necessitatibus quia obcaecati inventore maxime recusandae minima atque dolores
+                        vel. Deleniti nulla itaque nostrum quis quod!</p>
+                    <br>
+                    <div class="container">
+                        <h2>Progress Bar</h2>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width:60%">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
